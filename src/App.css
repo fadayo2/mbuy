@@ -97,6 +97,10 @@ svg {
   display: none;
 }
 
+.wishlist:hover {
+  fill: rgb(255, 97, 97);
+  border: none;
+}
 
 @media(max-width: 1110px) {
   .navlink {
@@ -115,13 +119,22 @@ svg {
     width: 60vw;
   }
   .input input {
-    width: 40vw;
+    width: 50vw;
   }
 }
 
 @media(max-width: 640px) {
+  .navbar {
+    padding-left: 1rem;
+    /* padding-right: 10rem; */
+    justify-content: space-between;
+  }
+  .input {
+    margin-right: -1.5rem;
+  }
   .navbar h1 {
     font-size: 20px;
+    /* margin-right: 1rem; */
   }
   .promote {
     font-size: 50%;
